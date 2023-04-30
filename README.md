@@ -1,5 +1,5 @@
 # Compiler-Design
-A repo with basic comiler design resources and programmes in C
+A repo with basic compiler design resources and programmes in C
 
 
 **What exactly are Compilers?**
