@@ -1,3 +1,15 @@
+/*
+Grammar:
+E -> E + T | T
+T -> T * F | F
+F -> (E) | i
+
+Constructed Predictive Parsing Table for above grammar, used that for the parsing
+
+PS: I have purposefully not used a stack struct, but have used two pointers - Bptr and Sptr, to mimic the parsing as it would be done on paper
+*/
+
+
 #include <stdio.h>
 #include <string.h>
 
