@@ -1,3 +1,12 @@
+/*
+Grammar:
+E -> E + T | T
+T -> T * F | F
+F -> (E) | i
+
+Removed Left Recursion before constructing the parser
+*/
+
 #include <stdio.h>
 #include <string.h>
 
